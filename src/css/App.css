@@ -1,4 +1,18 @@
-.map-container {
-    width: 500px;
-    height: 500px;
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.app__locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.app_map-container {
+    width: 1000px;
+    height: 600px;
 }

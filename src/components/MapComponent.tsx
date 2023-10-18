@@ -1,7 +1,7 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 import { useEffect, useState } from "react";
 import {setKey, fromAddress} from 'react-geocode';
-import "../css/Map.css"
+import "../css/MapComponent.css"
 
 interface locationDataInterface {
     lat: number;
@@ -34,7 +34,7 @@ export default function Map(props: {location:string}) {
     useEffect( () => {getGeoLocation();}, [isLoaded])
     
     if (isLoaded) return(
-            <GoogleMap mapContainerClassName="map-container" center={position} zoom={15} >
+            <GoogleMap mapContainerClassName="map" center={position} zoom={15} >
                 <MarkerF position={position}/>
             </GoogleMap>  
     )

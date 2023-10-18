@@ -1,0 +1,52 @@
+.location {
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.location__image-container {
+    width: 90%;
+    height: 256px;
+    text-align: center;
+}
+
+.location__image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.location__header {
+    margin: 0;
+}
+
+.location__city {
+    margin: 0;
+}
+
+.location__text {
+    height: 90px;
+    overflow: auto;
+    margin: 0;
+}
+
+.location__button {
+    font-size: large;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 227, 172);
+}
+
+.location__button:hover {
+    background-color: rgb(251, 241, 217); 
+}
+
+.location__button:active {
+    background-color: rgb(181, 175, 159); 
+}
