@@ -18,7 +18,7 @@
 
 .location__image {
     width: 100%;
-    height: auto;
+    height: 256px;
     border-radius: 20px;
 }
 

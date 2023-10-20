@@ -11,8 +11,3 @@
     flex-wrap: wrap;
     gap: 25px;
 }
-
-.app_map-container {
-    width: 1000px;
-    height: 600px;
-}

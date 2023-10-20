@@ -14,7 +14,7 @@ export default function Location(props: {imageSource: string, locationName:strin
             <h2 className="location__header">{props.locationName}</h2>
             <h3 className="location__city">{props.city + " (" + props.adress + ")"}</h3>
             <p className="location__text">{props.locationDescription}</p>
-            <button className="location__button" onClick={handleClick}>Rodyti vietą žemelapyje</button>
+            <button className="location__button" onClick={handleClick}>Rodyti vietą žemėlapyje</button>
         </div>
     )
 }
